@@ -1,3 +1,400 @@
-@media (max-width: 425px) {
-    
+@media (max-width: 426px) {
+    .wrapper {
+        width: 343px;
+    }
+    .list {
+        display: none;
+    }
+    header {
+        padding: 16px;
+    }
+    .mee {
+        font-size: 30px;
+    }
+    .burger-icon {
+        display: block;
+        & .burger {
+            font-size: 30px;
+        }
+    }
+    .section__content {
+        padding-top: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 64px;
+    }
+    .contents {
+        flex-direction: column-reverse;
+    }
+    .section_img {
+        background-image: url(https://t3.ftcdn.net/jpg/03/18/60/62/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg);
+        width: 280px;
+        height: 300px;
+        margin-bottom: 48px;
+        margin-left: 31px;
+        margin-right: 31px;
+    }
+    .section_content_list {
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+    .section_content_link {
+        width: 345px;
+        height: 168px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .icon {
+        font-size: 20px;
+    }
+    .contacts {
+        display: flex;
+        gap: 16px;
+        margin-top: 48px;
+        width: 343px;
+        height: 36px;
+    }
+    .contacts_icon {
+        font-size: 25px;
+    }
+    /* hero */
+    .hero {
+        padding-top: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 64px;
+    }
+    .hero_all {
+        flex-direction: column;
+    }
+    .hero_card {
+        width: 584px;
+        height: 320px;
+        margin-bottom: 48px;
+    }
+
+    .hero_img {
+        margin-top: 15px;
+        width: 280px;
+        height: 300px;
+        margin-left: 31px;
+        margin-right: 31px;
+        margin-bottom: 0px;
+    }
+    .hero_text {
+        & .hero-text {
+            width: 343px;
+            height: 64px;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: -1px;
+        }
+        & .first_text {
+            width: 350px;
+            height: 192px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+    }
+    .second_text {
+        width: 350px;
+        height: 264px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .three_text {
+        width: 350px;
+        height: 72px;
+        margin-bottom: 16px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .four_text {
+        width: 350px;
+        height: 168px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .five_text {
+        width: 270px;
+        height: 24px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .hero_texts {
+        width: 350px;
+        height: 106px;
+        gap: 10px;
+    }
+    .eight_text {
+        width: 350px;
+        height: 72px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    /* zip content */
+    .zip_content {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 64px;
+    }
+    .zip_file {
+        display: none;
+    }
+    .zip_file2 {
+        display: none;
+    }
+    /* skills */
+    .mobile-skills {
+        display: block;
+    }
+    .skills-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+    .skills-2 {
+        display: flex;
+        gap: 72px;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+    .skills-3 {
+        display: flex;
+        gap: 58px;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+    .skills-4 {
+        display: flex;
+        gap: 42px;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+    .skills-5 {
+        display: flex;
+        gap: 75px;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+    .skills-6 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+    .upwork_mobile1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 32px;
+        background-color: #fff;
+        box-shadow: 0px 2px 2px 0px #0000000f;
+
+        box-shadow: 0px 4px 3px 0px #00000012;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+        width: 343px;
+        height: 348px;
+        transition: 0.3s;
+        margin-bottom: 24px;
+        flex-direction: column;
+    }
+    .upwork_mobile1:hover {
+        scale: 1.1;
+        transition: 0.3;
+        cursor: pointer;
+    }
+    .upwork_mobile2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 32px;
+        background-color: #fff;
+        box-shadow: 0px 2px 2px 0px #0000000f;
+
+        box-shadow: 0px 4px 3px 0px #00000012;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+        width: 343px;
+        height: 348px;
+        transition: 0.3s;
+        margin-bottom: 24px;
+        flex-direction: column;
+    }
+
+    .upwork_mobile2:hover {
+        scale: 1.1;
+        transition: 0.3;
+        cursor: pointer;
+    }
+    .upwork_card-text-info2 {
+        width: 279px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .upwork_mobile3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 32px;
+        background-color: #fff;
+        box-shadow: 0px 2px 2px 0px #0000000f;
+
+        box-shadow: 0px 4px 3px 0px #00000012;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+        transition: 0.3s;
+        width: 343px;
+        height: 288px;
+        border-radius: 12px;
+        flex-direction: column;
+    }
+    .upwork_mobile3:hover {
+        scale: 1.1;
+        transition: 0.3;
+        cursor: pointer;
+    }
+    .content_2ta {
+        display: flex;
+        flex-direction: column;
+    }
+    .upwork_card-text {
+        width: 279px;
+        height: 28px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+    .upwork_card-text-info {
+        width: 279px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .upwork_card-title {
+        margin-bottom: 16px;
+    }
+    .upwork_card-text2 {
+        margin-bottom: 16px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .upwork_card {
+        display: none;
+    }
+    .upwork_card2 {
+        display: none;
+    }
+    .upwork_card3 {
+        display: none;
+    }
+    /* fiksil section */
+    .fiksil_content-cards {
+        display: none;
+    }
+    .fiksil_content {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 96px;
+    }
+    .fiksil_content-cards1 {
+        display: block;
+        width: 343px;
+        height: 722px;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+    .fiksil_card1 {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+    .fiksil_card-img {
+        width: 279px;
+        height: 192px;
+        border-radius: 12px;
+        margin-bottom: 0px;
+    }
+    .fiksil_cards-text {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    .fiksil_cards-text2 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .fiksil_titles {
+        flex-wrap: wrap;
+        width: 279px;
+        height: 172px;
+        gap: 8px;
+    }
+    .fiksil1 {
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-bottom: 100px;
+    }
+    .fiksil_info {
+        display: none;
+    }
+    .fiksil_info2 {
+        display: none;
+    }
+    .fiksil_info3 {
+        display: none;
+    }
+    .fiksil_info-mobile {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .mobile_page {
+        display: flex;
+        gap: 8px;
+    }
+    .mobile_page2 {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+    .fiksil_info2-mobile {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .mobile_page3 {
+        display: flex;
+        gap: 8px;
+    }
+    .mobile_page4 {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+    .fiksil_info3-mobile {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .mobile_page5 {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
 }
