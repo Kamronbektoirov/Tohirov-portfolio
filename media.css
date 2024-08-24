@@ -397,4 +397,93 @@
         gap: 8px;
         margin-bottom: 8px;
     }
+    /* testimonials */
+    .Testimonials_content {
+        padding: 64px 0px;
+        background-color: #f9fafb;
+    }
+    .testimonials_content-cards {
+        flex-direction: column;
+    }
+    .testimonials_text2 {
+        width: 343px;
+        height: 28px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonials-card {
+        width: 345px;
+        height: 348px;
+        margin-bottom: 24px;
+        border-radius: 12px;
+    }
+    .testimonials-card-text {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 285px;
+        height: 120px;
+        margin-bottom: 24px;
+    }
+    .testimonials-card-img {
+        margin-top: 32px;
+        margin-bottom: 24px;
+        margin-right: auto;
+    }
+    .testimonials-card-text2 {
+        width: 279px;
+        height: 28px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        margin-bottom: 4px;
+    }
+    .testimonials-card-text3 {
+        width: 279px;
+        height: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .testimonials-card2 {
+        width: 345px;
+        height: 348px;
+        margin-bottom: 24px;
+        border-radius: 12px;
+    }
+    .testimonials-card3 {
+        width: 345px;
+        height: 380px;
+        border-radius: 12px;
+    }
+    .testimonials-card-text-1 {
+        width: 279px;
+        height: 168px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+    }
+    .testimonials-card-text5 {
+        width: 279px;
+        height: 28px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    .testimonials-card-text4 {
+        width: 279px;
+        height: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
 }

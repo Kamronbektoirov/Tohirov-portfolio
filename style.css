@@ -671,10 +671,8 @@ header {
 }
 /* testimonials */
 .Testimonials_content {
-    width: 1, 440px;
-    height: 740px;
-    padding: 96px 80px;
     background-color: #f9fafb;
+    padding: 96px 80px;
 }
 .testimonials_text {
     font-size: 14px;
@@ -702,9 +700,6 @@ header {
     margin-bottom: 48px;
 }
 .testimonials_content-cards {
-    width: 1, 216px;
-    height: 428px;
-    border-radius: 12px;
     display: flex;
     gap: 48px;
 }
@@ -716,12 +711,9 @@ header {
     box-shadow: 0px 2px 2px 0px #0000000f;
 
     box-shadow: 0px 4px 3px 0px #00000012;
-    transition: 0.3s;
 }
 .testimonials-card:hover {
-    scale: 1.1;
     cursor: pointer;
-    transition: 0.3s;
 }
 .testimonials-card2 {
     background-color: #fff;
@@ -731,11 +723,6 @@ header {
     box-shadow: 0px 2px 2px 0px #0000000f;
 
     box-shadow: 0px 4px 3px 0px #00000012;
-    transition: 0.3s;
-}
-.testimonials-card2:hover {
-    scale: 1.1;
-    cursor: pointer;
     transition: 0.3s;
 }
 .testimonials-card3 {
@@ -748,12 +735,6 @@ header {
     box-shadow: 0px 4px 3px 0px #00000012;
     transition: 0.3s;
 }
-.testimonials-card3:hover {
-    scale: 1.1;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
 .testimonials-card-img {
     margin-left: 150px;
     margin-right: 150px;
@@ -762,9 +743,7 @@ header {
     transition: 0.3s;
 }
 .testimonials-card-img:hover {
-    scale: 1.1;
     cursor: pointer;
-    transition: 0.3s;
 }
 .testimonials-card-text {
     width: 290px;
@@ -827,172 +806,7 @@ header {
     margin-bottom: 4px;
 }
 /* footer */
-.footer_content {
-    width: 1, 440px;
-    height: 560px;
-    padding: 96px 80px;
-}
-.footer-text {
-    width: 130px;
-    height: 28px;
-    padding: 4px 20px;
-    border-radius: 12px;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 16px;
-    background-color: #e5e7eb;
-}
-.footer-text2 {
-    width: 576px;
-    height: 56px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: center;
-    margin-left: 342px;
-    margin-bottom: 48px;
-}
 
-.footer-text3-info {
-    list-style-type: none;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 18px;
-}
-.footer-text3 {
-    width: 480px;
-    height: 40px;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 40px;
-    letter-spacing: -2px;
-    text-align: center;
-    color: black;
-    opacity: 70%;
-    transition: 0.2s;
-    text-decoration: none;
-}
-.footer-text3:hover {
-    opacity: 100%;
-    color: black;
-    font-size: 50px;
-}
-
-.email {
-    font-size: 35px;
-    color: black;
-    opacity: 70%;
-    transition: 0.2s;
-    margin-right: 15px;
-}
-.email:hover {
-    opacity: 100%;
-    cursor: pointer;
-}
-.email:active {
-    scale: 0.96;
-}
-.copy {
-    font-size: 35px;
-    color: black;
-    opacity: 70%;
-    transition: 0.2s;
-    margin-left: 15px;
-}
-.copy:hover {
-    opacity: 100%;
-    cursor: pointer;
-}
-.copy:active {
-    scale: 0.96;
-}
-
-.footer-text4-info {
-    list-style-type: none;
-    text-align: center;
-    margin-bottom: 48px;
-}
-.phone {
-    font-size: 35px;
-    color: black;
-    opacity: 70%;
-    transition: 0.2s;
-    margin-right: 15px;
-}
-.phone:hover {
-    opacity: 100%;
-    cursor: pointer;
-}
-.phone:active {
-    scale: 0.96;
-}
-.footer-text5 {
-    width: 350px;
-    height: 24px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 8px;
-}
-.contacts-2 {
-    gap: 10px;
-    display: flex;
-    margin-left: 560px;
-    & li {
-        list-style-type: none;
-        & a {
-            color: black;
-            opacity: 80%;
-        }
-        & a:hover {
-            opacity: 100%;
-        }
-    }
-}
-.icon-1 {
-    font-size: 23px;
-    opacity: 80%;
-    color: black;
-}
-.icon-2 {
-    font-size: 23px;
-    opacity: 80%;
-    color: black;
-}
-.icon-3 {
-    font-size: 23px;
-    opacity: 80%;
-    color: black;
-}
-.footer_bottom {
-    border-top: 1px solid rgb(228, 227, 227);
-    background-color: #f9fafb;
-    display: flex;
-    gap: 8px;
-    width: 1, 440px;
-    height: 68px;
-    padding: 24px 80px;
-}
-.footer-bottom-title {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-}
-.footer-img {
-    width: 20px;
-    height: 20px;
-    opacity: 100%;
-    cursor: pointer;
-    margin-left: 500px;
-}
 .mobile-skills {
     display: none;
 }
