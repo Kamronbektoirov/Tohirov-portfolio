@@ -83,6 +83,7 @@
         margin-bottom: 0px;
     }
     .hero_text {
+        width: 0px;
         & .hero-text {
             width: 343px;
             height: 64px;
@@ -164,25 +165,21 @@
     }
     .skills-2 {
         display: flex;
-        gap: 72px;
         justify-content: space-between;
         margin-bottom: 16px;
     }
     .skills-3 {
         display: flex;
-        gap: 58px;
         justify-content: space-between;
         margin-bottom: 16px;
     }
     .skills-4 {
         display: flex;
-        gap: 42px;
         justify-content: space-between;
         margin-bottom: 16px;
     }
     .skills-5 {
         display: flex;
-        gap: 75px;
         justify-content: space-between;
         margin-bottom: 16px;
     }
@@ -205,14 +202,8 @@
         justify-content: space-between;
         width: 343px;
         height: 348px;
-        transition: 0.3s;
         margin-bottom: 24px;
         flex-direction: column;
-    }
-    .upwork_mobile1:hover {
-        scale: 1.1;
-        transition: 0.3;
-        cursor: pointer;
     }
     .upwork_mobile2 {
         display: block;
@@ -228,16 +219,10 @@
         justify-content: space-between;
         width: 343px;
         height: 348px;
-        transition: 0.3s;
         margin-bottom: 24px;
         flex-direction: column;
     }
 
-    .upwork_mobile2:hover {
-        scale: 1.1;
-        transition: 0.3;
-        cursor: pointer;
-    }
     .upwork_card-text-info2 {
         width: 279px;
         font-size: 16px;
@@ -257,16 +242,10 @@
         border-radius: 12px;
         display: flex;
         justify-content: space-between;
-        transition: 0.3s;
         width: 343px;
         height: 288px;
         border-radius: 12px;
         flex-direction: column;
-    }
-    .upwork_mobile3:hover {
-        scale: 1.1;
-        transition: 0.3;
-        cursor: pointer;
     }
     .content_2ta {
         display: flex;
@@ -304,6 +283,14 @@
     .upwork_card3 {
         display: none;
     }
+    .upwork_infos {
+        width: 0px;
+    }
+    .upwork_info {
+        width: 0px;
+        height: 0px;
+    }
+
     /* fiksil section */
     .fiksil_content-cards {
         display: none;
@@ -362,6 +349,11 @@
     .fiksil_info3 {
         display: none;
     }
+    .fiksil_info4 {
+        width: 0px;
+        height: 0px;
+    }
+
     .fiksil_info-mobile {
         flex-direction: column;
         margin-bottom: 0px;
@@ -485,5 +477,18 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
+    }
+    .all_content {
+        width: 0px;
+    }
+    .hero_card {
+        width: 0px;
+    }
+    .section_content_list {
+        display: flex;
+        width: 350px;
+    }
+    .section_map {
+        width: 350px;
     }
 }
