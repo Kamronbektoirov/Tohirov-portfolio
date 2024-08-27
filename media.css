@@ -491,4 +491,57 @@
     .section_map {
         width: 350px;
     }
+    /* footer section */
+
+    footer {
+        padding: 64px 16px;
+    }
+    .title1_text2 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .gma-il {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    .email {
+        font-size: 23px;
+    }
+    .copy {
+        font-size: 23px;
+    }
+    .pho-ne {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    .phone {
+        font-size: 21px;
+    }
+    .footer_title2 {
+        margin-bottom: 24px;
+    }
+    .github {
+        font-size: 20px;
+    }
+    .instagram {
+        font-size: 20px;
+    }
+    .figma {
+        font-size: 20px;
+    }
+    .footer_bottom {
+        padding: 24px 0px;
+    }
+    .bottom_title {
+        font-size: 12px;
+    }
 }

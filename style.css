@@ -830,6 +830,7 @@ footer {
     line-height: 40px;
     letter-spacing: -2px;
     text-align: center;
+    margin-bottom: 4px;
 }
 .copy {
     cursor: pointer;
@@ -879,5 +880,25 @@ footer {
 }
 .figma {
     font-size: 25px;
+    color: black;
+}
+.mobile-skills {
+    display: none;
+}
+.footer_bottom {
+    background-color: #f9fafb;
+    padding: 24px 80px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.bottom_title {
+    color: black;
+    font-weight: 400;
+}
+.designed {
+    color: black;
+}
+.coded {
     color: black;
 }
